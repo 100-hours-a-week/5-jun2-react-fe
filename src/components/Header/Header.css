@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'sagak';
+  src: url('../../assets/font/sagak.ttf') format('truetype');
+}
+
+.header-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 104px;
+  border-bottom: 1px solid black;
+}
+
+.header-layout h1 {
+  font-weight: 400;
+  font-size: 32px;
+  font-family: 'sagak';
+}
