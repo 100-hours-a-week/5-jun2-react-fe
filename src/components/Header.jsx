@@ -1,8 +1,16 @@
 import style from '../styles/components/Header.module.css';
 import { Link } from 'react-router-dom';
 import basicProfile from '../assets/images/basic-profile.jpg';
+import DropdownMenu from './DropdownMenu';
+import useDropdown from '../hooks/useDropdown';
 
 const Header = ({ title, showBackButton, showUserProfile, backUrl }) => {
+  const { isOpen, dropdownRef, toggleDropdown } = useDropdown();
+
+  const handleDropdown = () => {
+    toggleDropdown();
+  };
+
   return (
     <div className={style.headerLayout}>
       <div className={style.headerWrapper}>
@@ -16,11 +24,18 @@ const Header = ({ title, showBackButton, showUserProfile, backUrl }) => {
         <div className={style.mainTitleBox}>
           <h1>{title}</h1>
         </div>
-        <div className={style.profileImgBox}>
+        <li className={style.profileImgBox}>
           {showUserProfile && (
-            <img className={style.profileImg} src={basicProfile} alt="userProfile" />
+            <img
+              className={style.profileImg}
+              ref={dropdownRef}
+              onClick={handleDropdown}
+              src={basicProfile}
+              alt="userProfile"
+            />
           )}
-        </div>
+          {isOpen && <DropdownMenu />}
+        </li>
       </div>
     </div>
   );

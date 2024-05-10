@@ -21,8 +21,13 @@
 .backBtnBox,
 .profileImgBox {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   width: 35px;
+}
+
+.profileImgBox {
+  position: relative;
 }
 
 .mainTitleBox {
@@ -49,4 +54,8 @@
   width: 36px;
   height: 36px;
   border-radius: 50%;
+}
+
+.profileImg:hover {
+  cursor: pointer;
 }

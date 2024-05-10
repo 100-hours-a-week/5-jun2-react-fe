@@ -1,7 +1,6 @@
 import style from '../styles/components/TextInput.module.css';
 
 const TextInput = ({ title, inputInfo, helperText }) => {
-  console.log(inputInfo);
   return (
     <div className={style.textInputWrapper}>
       <div className={style.titleBox}>
