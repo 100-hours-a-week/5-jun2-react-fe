@@ -1,19 +1,19 @@
 import style from '../styles/TextInput.module.css';
 
-const TextInput = ({ title, input, helperText }) => {
+const TextInput = ({ title, inputInfo, helperText }) => {
   return (
     <div className={style.textInputWrapper}>
       <div className={style.titleBox}>
-        <label for={input.name} className={style.inputTitle}>
+        <label for={inputInfo.name} className={style.inputTitle}>
           {title}
         </label>
       </div>
       <div className={style.inputBox}>
         <input
-          type={input.type}
-          name={input.name}
-          className={input.className}
-          placeholder={input.placeHolder}
+          type={inputInfo.type}
+          name={inputInfo.name}
+          className={inputInfo.className}
+          placeholder={inputInfo.placeHolder}
           maxLength={25}
         />
       </div>

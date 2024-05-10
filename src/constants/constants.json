@@ -1,12 +1,12 @@
 {
   "title": "아무 말 대잔치",
-  "emailInfo": {
+  "emailInputInfo": {
     "name": "email",
     "type": "text",
     "className": "email",
     "placeHolder": "이메일을 입력하세요"
   },
-  "passwordInfo": {
+  "passwordInputInfo": {
     "name": "password",
     "type": "password",
     "className": "password",

@@ -1,21 +1,28 @@
+import { Link } from 'react-router-dom';
 import style from '../styles/LoginPage.module.css';
-import Header from '../components/Header';
 import constants from '../constants/constants.json';
+import Header from '../components/Header';
 import TextInput from '../components/TextInput';
+import SubmitButton from '../components/SubmitButton';
 
 const LoginPage = () => {
-  const emailInputInfo = constants['emailInfo'];
-  const passwordInputInfo = constants['passwordInfo'];
+  const title = constants['title'];
+  const emailInputInfo = constants['emailInputInfo'];
+  const passwordInputInfo = constants['passwordInputInfo'];
 
   return (
     <>
-      <Header title={constants.title} />
+      <Header title={title} />
       <div className={style.main}>
         <h1>로그인</h1>
         <form className={style.loginForm}>
-          <TextInput title="이메일 *" input={emailInputInfo} />
-          <TextInput title="비밀번호 *" input={passwordInputInfo} helperText=" *helper text" />
+          <TextInput title="이메일 *" inputInfo={emailInputInfo} />
+          <TextInput title="비밀번호 *" inputInfo={passwordInputInfo} helperText="*helper text" />
+          <SubmitButton text="로그인"></SubmitButton>
         </form>
+        <Link className={style.textLink} to="/signup">
+          회원가입
+        </Link>
       </div>
     </>
   );
