@@ -1,5 +1,5 @@
-import Header from '../../components/Header/Header';
-import constants from '../../constants/constants.json';
+import Header from '../components/Header/Header';
+import constants from '../constants/constants.json';
 
 const BoardListPage = () => {
   return (

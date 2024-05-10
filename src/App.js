@@ -1,9 +1,9 @@
 import React from 'react';
 import { Reset } from 'styled-reset';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import LoginPage from './pages/Login/LoginPage';
-import SignupPage from './pages/Signup/SignupPage';
-import BoardListPage from './pages/Boards/BoardListPage';
+import LoginPage from './pages/LoginPage';
+import SignupPage from './pages/SignupPage';
+import BoardListPage from './pages/BoardListPage';
 
 function App() {
   return (
