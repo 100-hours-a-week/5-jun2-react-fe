@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'sagak';
-  src: url('../../assets/font/sagak.ttf') format('truetype');
+  src: url('../assets/font/sagak.ttf') format('truetype');
 }
 
-.header-layout {
+.headerLayout {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,41 +11,41 @@
   border-bottom: 1px solid black;
 }
 
-.header-wrapper {
+.headerWrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 500px;
 }
 
-.back-btn-box,
-.profile-img-box {
+.backBtnBox,
+.profileImgBox {
   display: flex;
   justify-content: center;
   width: 35px;
 }
 
-.main-title-box {
+.mainTitleBox {
   display: flex;
   justify-content: center;
   text-align: center;
   width: 400px;
 }
 
-.header-layout h1 {
+.headerLayout h1 {
   text-align: center;
   font-weight: 400;
   font-size: 32px;
   font-family: 'sagak';
 }
 
-.back-btn {
+.backBtn {
   text-decoration: none;
   color: black;
   font-size: 25px;
 }
 
-.profile-img {
+.profileImg {
   width: 36px;
   height: 36px;
   border-radius: 50%;

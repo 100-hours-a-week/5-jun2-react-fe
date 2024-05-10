@@ -1,24 +1,24 @@
-.text-input-wrapper {
+.textInputWrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 7px;
 }
 
-.title-box,
-.input-box,
-.helper-text-box {
+.titleBox,
+.inputBox,
+.helperTextBox {
   display: flex;
   justify-content: start;
   width: 350px;
 }
 
-.input-title {
+.inputTitle {
   font-weight: 700;
   font-size: 15px;
 }
 
-.text-input-wrapper input {
+.textInputWrapper input {
   width: 355px;
   height: 33px;
   border: 1px solid black;
@@ -26,7 +26,7 @@
   padding-left: 10px;
 }
 
-.helper-text {
+.helperText {
   font-weight: 400;
   font-size: 12px;
   color: red;

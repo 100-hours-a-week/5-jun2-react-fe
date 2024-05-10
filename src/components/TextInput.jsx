@@ -1,14 +1,14 @@
-import './TextInput.css';
+import style from '../styles/TextInput.module.css';
 
 const TextInput = ({ title, input, helperText }) => {
   return (
-    <div className="text-input-wrapper">
-      <div className="title-box">
-        <label for={input.name} className="input-title">
+    <div className={style.textInputWrapper}>
+      <div className={style.titleBox}>
+        <label for={input.name} className={style.inputTitle}>
           {title}
         </label>
       </div>
-      <div className="input-box">
+      <div className={style.inputBox}>
         <input
           type={input.type}
           name={input.name}
@@ -17,8 +17,8 @@ const TextInput = ({ title, input, helperText }) => {
           maxLength={25}
         />
       </div>
-      <div className="helper-text-box">
-        <span className="helper-text">{helperText}</span>
+      <div className={style.helperTextBox}>
+        <span className={style.helperText}>{helperText}</span>
       </div>
     </div>
   );
