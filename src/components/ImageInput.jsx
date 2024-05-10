@@ -1,4 +1,4 @@
-import style from '../styles/ImageInput.module.css';
+import style from '../styles/components/ImageInput.module.css';
 
 const ImageInput = ({ title, helperText }) => {
   return (

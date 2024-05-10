@@ -1,5 +1,5 @@
 import globalStyle from '../styles/Global.module.css';
-import style from '../styles/SignupPage.module.css';
+import style from '../styles/pages/SignupPage.module.css';
 import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import constants from '../constants/constants.json';
@@ -30,7 +30,7 @@ const SignupPage = () => {
           <TextInput title="닉네임 *" inputInfo={nickNameInputInfo} helperText="*helper text" />
           <SubmitButton text="회원가입"></SubmitButton>
         </form>
-        <Link className={style.textLink} to="/login">
+        <Link className={globalStyle.textLink} to="/login">
           로그인하러 가기
         </Link>
       </div>

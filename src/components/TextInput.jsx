@@ -1,4 +1,4 @@
-import style from '../styles/TextInput.module.css';
+import style from '../styles/components/TextInput.module.css';
 
 const TextInput = ({ title, inputInfo, helperText }) => {
   console.log(inputInfo);

@@ -5,3 +5,11 @@
   align-items: center;
   height: 1080px;
 }
+
+.textLink {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 15px;
+}

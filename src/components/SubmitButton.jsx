@@ -1,4 +1,4 @@
-import style from '../styles/SubmitButton.module.css';
+import style from '../styles/components/SubmitButton.module.css';
 
 const SubmitButton = ({ text }) => {
   return <button className={style.submitBtn}>{text}</button>;

@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'sagak';
-  src: url('../assets/font/sagak.ttf') format('truetype');
+  src: url('../../assets/font/sagak.ttf') format('truetype');
 }
 
 .headerLayout {
