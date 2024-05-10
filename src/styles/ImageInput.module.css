@@ -1,0 +1,64 @@
+.imageInputWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.textBox {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  width: 360px;
+}
+
+.inputTitle {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.helperText {
+  font-weight: 400;
+  font-size: 12px;
+  color: red;
+}
+
+.imageInput {
+  display: none;
+}
+
+.circleBox {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: relative;
+  margin-top: 15px;
+  background-color: #c4c4c4;
+  overflow: hidden;
+}
+
+.circleBox:hover {
+  cursor: pointer;
+}
+
+.crossLine {
+  width: 1px;
+  height: 24px;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.crossLine::before,
+.crossLine::after {
+  content: '';
+  width: 24px;
+  height: 1px;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
