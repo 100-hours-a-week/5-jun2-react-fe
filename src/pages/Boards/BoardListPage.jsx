@@ -1,9 +1,10 @@
 import Header from '../../components/Header/Header';
+import constants from '../../constants/constants.json';
 
 const BoardListPage = () => {
   return (
     <>
-      <Header title="아무 말 대잔치" showUserProfile />
+      <Header title={constants.title} showUserProfile />
       <h1>BoardList Page</h1>
     </>
   );
