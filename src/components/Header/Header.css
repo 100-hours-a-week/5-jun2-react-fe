@@ -11,8 +11,45 @@
   border-bottom: 1px solid black;
 }
 
+.header-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}
+
+.back-btn-box {
+  align-items: center;
+  width: 16.25px;
+}
+
+.title-box {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 345px;
+}
+
+.profile-img-box {
+  align-items: center;
+  width: 37.81px;
+}
+
 .header-layout h1 {
+  text-align: center;
   font-weight: 400;
   font-size: 32px;
   font-family: 'sagak';
+}
+
+.back-btn {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+
+.profile-img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
 }

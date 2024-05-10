@@ -1,9 +1,25 @@
 import './Header.css';
+import { Link } from 'react-router-dom';
+import basicProfile from '../../assets/images/basic-profile.jpg';
 
-const Header = () => {
+const Header = ({ title, showBackButton, showUserProfile, backUrl }) => {
   return (
     <div className="header-layout">
-      <h1>아무 말 대잔치</h1>
+      <div className="header-wrapper">
+        <div className="back-btn-box">
+          {showBackButton && (
+            <Link className="back-btn" to={backUrl}>
+              {'<'}
+            </Link>
+          )}
+        </div>
+        <div className="title-box">
+          <h1>{title}</h1>
+        </div>
+        <div className="profile-img-box">
+          {showUserProfile && <img className="profile-img" src={basicProfile} alt="userProfile" />}
+        </div>
+      </div>
     </div>
   );
 };
