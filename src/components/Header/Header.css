@@ -15,24 +15,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 400px;
+  width: 500px;
 }
 
-.back-btn-box {
-  align-items: center;
-  width: 16.25px;
+.back-btn-box,
+.profile-img-box {
+  display: flex;
+  justify-content: center;
+  width: 35px;
 }
 
-.title-box {
+.main-title-box {
   display: flex;
   justify-content: center;
   text-align: center;
-  width: 345px;
-}
-
-.profile-img-box {
-  align-items: center;
-  width: 37.81px;
+  width: 400px;
 }
 
 .header-layout h1 {

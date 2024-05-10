@@ -13,7 +13,7 @@ const Header = ({ title, showBackButton, showUserProfile, backUrl }) => {
             </Link>
           )}
         </div>
-        <div className="title-box">
+        <div className="main-title-box">
           <h1>{title}</h1>
         </div>
         <div className="profile-img-box">
