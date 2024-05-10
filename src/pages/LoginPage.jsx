@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import globalStyle from '../styles/Global.module.css';
 import style from '../styles/LoginPage.module.css';
 import constants from '../constants/constants.json';
 import Header from '../components/Header';
@@ -13,8 +14,8 @@ const LoginPage = () => {
   return (
     <>
       <Header title={title} />
-      <div className={style.main}>
-        <h1>로그인</h1>
+      <div className={globalStyle.main}>
+        <h1 className={style.subTitle}>로그인</h1>
         <form className={style.loginForm}>
           <TextInput title="이메일 *" inputInfo={emailInputInfo} />
           <TextInput title="비밀번호 *" inputInfo={passwordInputInfo} helperText="*helper text" />

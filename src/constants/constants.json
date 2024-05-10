@@ -10,6 +10,18 @@
     "name": "password",
     "type": "password",
     "className": "password",
-    "placeHolder": "비밀번호를 입력해주세요."
+    "placeHolder": "비밀번호를 입력하세요"
+  },
+  "passwordCheckInputInfo": {
+    "name": "passwordCheck",
+    "type": "password",
+    "className": "passwordCheck",
+    "placeHolder": "비밀번호를 한번 더 입력하세요"
+  },
+  "nickNameCheckInputInfo": {
+    "name": "nickName",
+    "type": "text",
+    "className": "nickName",
+    "placeHolder": "닉네임을 입력하세요"
   }
 }
