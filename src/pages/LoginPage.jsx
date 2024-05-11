@@ -20,7 +20,7 @@ const LoginPage = () => {
             inputInfo={inputInfo.PASSWORD_INPUT_INFO}
             helperText="*helper text"
           />
-          <SubmitButton text={`${text.LOGIN} *`}></SubmitButton>
+          <SubmitButton text={text.LOGIN}></SubmitButton>
         </form>
         <Link className={globalStyle.textLink} to="/signup">
           {text.SIGNUP}

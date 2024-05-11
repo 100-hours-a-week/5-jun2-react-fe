@@ -36,7 +36,7 @@ const SignupPage = () => {
             inputInfo={inputInfo.NICKNAME_INPUT_INFO}
             helperText="*helper text"
           />
-          <SubmitButton text={`${text.SIGNUP} *`}></SubmitButton>
+          <SubmitButton text={text.SIGNUP}></SubmitButton>
         </form>
         <Link className={globalStyle.textLink} to="/login">
           로그인하러 가기
