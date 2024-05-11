@@ -1,24 +1,23 @@
 {
-  "title": "아무 말 대잔치",
-  "emailInputInfo": {
+  "EMAIL_INPUT_INFO": {
     "name": "email",
     "type": "text",
     "className": "email",
     "placeHolder": "이메일을 입력하세요"
   },
-  "passwordInputInfo": {
+  "PASSWORD_INPUT_INFO": {
     "name": "password",
     "type": "password",
     "className": "password",
     "placeHolder": "비밀번호를 입력하세요"
   },
-  "passwordCheckInputInfo": {
+  "PASSWORD_CHECK_INPUT_INFO": {
     "name": "passwordCheck",
     "type": "password",
     "className": "passwordCheck",
     "placeHolder": "비밀번호를 한번 더 입력하세요"
   },
-  "nickNameCheckInputInfo": {
+  "NICKNAME_INPUT_INFO": {
     "name": "nickName",
     "type": "text",
     "className": "nickName",
