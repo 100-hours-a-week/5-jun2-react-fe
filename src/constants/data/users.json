@@ -1,42 +1,44 @@
-[
-  {
-    "user_id": 1,
-    "email": "test1@naver.com",
-    "password": "Qwer123!",
-    "nickname": "test1",
-    "profile_url": "/test/url1",
-    "created_at": "2024-01-01T00:00:00"
-  },
-  {
-    "user_id": 2,
-    "email": "test2@naver.com",
-    "password": "Qwer123!",
-    "nickname": "test2",
-    "profile_url": "/test/url2",
-    "created_at": "2024-01-01T00:00:00"
-  },
-  {
-    "user_id": 3,
-    "email": "test3@naver.com",
-    "password": "Qwer123!",
-    "nickname": "test3",
-    "profile_url": "/test/url3",
-    "created_at": "2024-01-01T00:00:00"
-  },
-  {
-    "user_id": 4,
-    "email": "test4@naver.com",
-    "password": "Qwer123!",
-    "nickname": "test4",
-    "profile_url": "/test/url4",
-    "created_at": "2024-01-01T00:00:00"
-  },
-  {
-    "user_id": 5,
-    "email": "test5@naver.com",
-    "password": "Qwer123!",
-    "nickname": "test5",
-    "profile_url": "/test/url5",
-    "created_at": "2024-01-01T00:00:00"
-  }
-]
+{
+  "users": [
+    {
+      "user_id": 1,
+      "email": "test1@naver.com",
+      "password": "Qwer123!",
+      "nickname": "test1",
+      "profile_url": "/test/url1",
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "user_id": 2,
+      "email": "test2@naver.com",
+      "password": "Qwer123!",
+      "nickname": "test2",
+      "profile_url": "/test/url2",
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "user_id": 3,
+      "email": "test3@naver.com",
+      "password": "Qwer123!",
+      "nickname": "test3",
+      "profile_url": "/test/url3",
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "user_id": 4,
+      "email": "test4@naver.com",
+      "password": "Qwer123!",
+      "nickname": "test4",
+      "profile_url": "/test/url4",
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "user_id": 5,
+      "email": "test5@naver.com",
+      "password": "Qwer123!",
+      "nickname": "test5",
+      "profile_url": "/test/url5",
+      "created_at": "2024-01-01T00:00:00"
+    }
+  ]
+}

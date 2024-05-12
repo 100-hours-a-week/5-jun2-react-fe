@@ -1,57 +1,59 @@
-[
-  {
-    "board_id": 1,
-    "title": "제목 1",
-    "writer_id": 1,
-    "writer_nickname": "더미 작성자 1",
-    "content": "내용 1",
-    "likes_count": 0,
-    "comments_count": 0,
-    "views_count": 0,
-    "created_at": "2024-01-01T00:00:00"
-  },
-  {
-    "board_id": 2,
-    "title": "제목 2",
-    "writer_id": 2,
-    "writer_nickname": "더미 작성자 2",
-    "content": "내용 2",
-    "likes_count": 0,
-    "comments_count": 0,
-    "views_count": 0,
-    "created_at": "2024-01-01T00:00:00"
-  },
-  {
-    "board_id": 3,
-    "title": "제목 3",
-    "writer_id": 3,
-    "writer_nickname": "더미 작성자 3",
-    "content": "내용 3",
-    "likes_count": 0,
-    "comments_count": 0,
-    "views_count": 0,
-    "created_at": "2024-01-01T00:00:00"
-  },
-  {
-    "board_id": 4,
-    "title": "제목 1",
-    "writer_id": 4,
-    "writer_nickname": "더미 작성자 4",
-    "content": "내용 4",
-    "likes_count": 0,
-    "comments_count": 0,
-    "views_count": 0,
-    "created_at": "2024-01-01T00:00:00"
-  },
-  {
-    "board_id": 5,
-    "title": "제목 5",
-    "writer_id": 5,
-    "writer_nickname": "더미 작성자 5",
-    "content": "내용 5",
-    "likes_count": 0,
-    "comments_count": 0,
-    "views_count": 0,
-    "created_at": "2024-01-01T00:00:00"
-  }
-]
+{
+  "boards": [
+    {
+      "boardId": 1,
+      "title": "제목 1",
+      "writerId": 1,
+      "writerNickname": "더미 작성자 1",
+      "content": "내용 1",
+      "likesCount": 0,
+      "commentsCount": 0,
+      "viewsCount": 0,
+      "createdAt": "2024-01-01T00:00:00"
+    },
+    {
+      "boardId": 2,
+      "title": "제목 2",
+      "writerId": 2,
+      "writerNickname": "더미 작성자 2",
+      "content": "내용 2",
+      "likesCount": 0,
+      "commentsCount": 0,
+      "viewsCount": 0,
+      "createdAt": "2024-01-01T00:00:00"
+    },
+    {
+      "boardId": 3,
+      "title": "제목 3",
+      "writerId": 3,
+      "writerNickname": "더미 작성자 3",
+      "content": "내용 3",
+      "likesCount": 0,
+      "commentsCount": 0,
+      "viewsCount": 0,
+      "createdAt": "2024-01-01T00:00:00"
+    },
+    {
+      "boardId": 4,
+      "title": "제목 1",
+      "writerId": 4,
+      "writerNickname": "더미 작성자 4",
+      "content": "내용 4",
+      "likesCount": 0,
+      "commentsCount": 0,
+      "viewsCount": 0,
+      "createdAt": "2024-01-01T00:00:00"
+    },
+    {
+      "boardId": 5,
+      "title": "제목 5",
+      "writerId": 5,
+      "writerNickname": "더미 작성자 5",
+      "content": "내용 5",
+      "likesCount": 0,
+      "commentsCount": 0,
+      "viewsCount": 0,
+      "createdAt": "2024-01-01T00:00:00"
+    }
+  ]
+}
