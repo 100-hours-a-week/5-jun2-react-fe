@@ -1,0 +1,27 @@
+.titleBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+
+.titleBox > p,
+.titleBox > span {
+  font-size: 24px;
+}
+
+.titleBox > p {
+  font-weight: 400;
+}
+
+.titleBox > p > span {
+  font-weight: 700;
+}
+
+.btnBox {
+  display: flex;
+  justify-content: end;
+  width: 600px;
+  margin-top: 50px;
+}
