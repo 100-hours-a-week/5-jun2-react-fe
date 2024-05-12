@@ -1,0 +1,13 @@
+.roundedButton {
+  width: 138px;
+  height: 39px;
+  color: #ffffff;
+  border: none;
+  border-radius: 16px;
+  background-color: #aca0eb;
+}
+
+.roundedButton:hover {
+  cursor: pointer;
+  background-color: #7f6aee;
+}
