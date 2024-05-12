@@ -22,13 +22,12 @@ const BoardListPage = () => {
         <div className={style.btnBox}>
           <RoundedButton text={text.BOARD_WRITE}></RoundedButton>
         </div>
-        <div className={style.boardCardWrapper}></div>
-      </div>
-      <div>
-        {boards &&
-          boards.map((board) => {
-            return <BoardCard boardData={board} key={board.boardId} />;
-          })}
+        <div className={style.boardCardsWrapper}>
+          {boards &&
+            boards.map((board) => {
+              return <BoardCard boardData={board} key={board.boardId} />;
+            })}
+        </div>
       </div>
     </>
   );

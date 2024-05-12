@@ -15,7 +15,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 500px;
+  width: 545px;
 }
 
 .backBtnBox,
@@ -34,7 +34,7 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  width: 400px;
+  width: 445px;
 }
 
 .headerLayout h1 {

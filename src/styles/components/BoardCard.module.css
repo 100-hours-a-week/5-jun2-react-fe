@@ -1,17 +1,79 @@
 .boardCardWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 600px;
+  height: 170px;
+  border-radius: 10px;
+  box-shadow: 3px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: #ffffff;
+}
+
+.boardCardWrapper:hover {
+  cursor: pointer;
 }
 
 .titleBox {
+  padding: 20px;
 }
 
-.infoBox {
+.titleBox h2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 700;
+  font-size: 24px;
 }
 
-.countsBox {
+.boardInfoBox {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px 10px 20px;
 }
 
-.dataBox {
+.countBox {
+  display: flex;
+  align-items: center;
+  width: auto;
+  gap: 10px;
+  overflow: visible;
+}
+
+.dateBox {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.countBox > span,
+.dateBox > span {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.line {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.16);
 }
 
 .userInfoBox {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  box-sizing: border-box;
+  gap: 10px;
+  padding: 5px 20px 5px 20px;
+}
+
+.userInfoBox span {
+  text-align: center;
+  font-weight: 700;
+  font-size: 15;
+}
+
+.userProfileImg {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
 }
