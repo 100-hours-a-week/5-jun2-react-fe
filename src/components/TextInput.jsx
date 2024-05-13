@@ -1,6 +1,6 @@
 import style from '../styles/components/TextInput.module.css';
 
-const TextInput = ({ title, inputInfo, helperText }) => {
+const TextInput = ({ title, inputInfo, helperText, readOnly }) => {
   return (
     <div className={style.textInputWrapper}>
       <div className={style.titleBox}>
@@ -13,6 +13,7 @@ const TextInput = ({ title, inputInfo, helperText }) => {
           className={inputInfo['className']}
           placeholder={inputInfo['placeHolder']}
           maxLength={25}
+          readOnly={readOnly}
         />
       </div>
       <div className={style.helperTextBox}>

@@ -1,6 +1,6 @@
 import style from '../styles/components/ImageInput.module.css';
 
-const ImageInput = ({ title, helperText }) => {
+const ImageInput = ({ title, crossLine, imageUrl, helperText }) => {
   return (
     <div className={style.imageInputWrapper}>
       <div className={style.textBox}>
@@ -10,8 +10,8 @@ const ImageInput = ({ title, helperText }) => {
       <div>
         <input type="file" accept="image/*" multiple className={style.imageInput}></input>
         <div className={style.circleBox}>
-          <div className={style.crossLine}></div>
-          <img className={style.profileImg} alt={'hi'}></img>
+          {crossLine && <div className={style.crossLine}></div>}
+          <img className={style.profileImg} src={imageUrl} alt={'hi'}></img>
         </div>
       </div>
     </div>

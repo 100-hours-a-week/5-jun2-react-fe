@@ -8,5 +8,10 @@
   "LOGIN": "로그인",
   "LOGOUT": "로그아웃",
   "SIGNUP": "회원가입",
-  "BOARD_WRITE": "게시글 작성"
+  "BOARD_WRITE": "게시글 작성",
+  "UPDATE_USER": "회원정보수정",
+  "UPDATE": "수정하기",
+  "UPDATE_DONE": "수정완료",
+  "USER_WITHDRAW": "회원탈퇴",
+  "CHANGE": "변경"
 }

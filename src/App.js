@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import LoginPage from './pages/LoginPage';
 import SignupPage from './pages/SignupPage';
 import BoardListPage from './pages/BoardListPage';
+import UserUpdatePage from './pages/UserUpdatePage';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/login" element={<LoginPage />} />
           <Route path="/signup" element={<SignupPage />} />
           <Route path="/boards" element={<BoardListPage />} />
+          <Route path="/users/me" element={<UserUpdatePage />} />
         </Routes>
       </BrowserRouter>
     </React.Fragment>

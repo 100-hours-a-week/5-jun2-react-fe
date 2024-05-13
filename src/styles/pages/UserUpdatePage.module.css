@@ -1,0 +1,67 @@
+.subTitle {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.updateForm {
+  margin-top: 40px;
+}
+
+.profileImgBox {
+  position: relative;
+}
+
+.profileChangeBtn {
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  transform: translateX(-50%);
+  padding: 5px 10px;
+  background: #00000059;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.inputTitle {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.emailBox {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 360px;
+  margin: 50px 0 20px 0;
+}
+
+.emailBox p,
+.withdrawBtn {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.btnBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.updateDoneBtn {
+  width: 100px;
+  height: 45px;
+  border-radius: 30px;
+  border: none;
+  color: #ffffff;
+  background: #aca0eb;
+  margin-top: 50px;
+}
+
+.updateDoneBtn:hover {
+  cursor: pointer;
+  background: #7f6aee;
+}
