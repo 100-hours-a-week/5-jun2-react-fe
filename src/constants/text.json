@@ -3,6 +3,7 @@
   "EMAIL": "이메일",
   "PASSWORD": "비밀번호",
   "PASSWORD_CHECK": "비밀번호 확인",
+  "PASSWORD_UPDATE": "비밀번호 수정",
   "NICKNAME": "닉네임",
   "PROFILE_IMG": "프로필 사진",
   "LOGIN": "로그인",
