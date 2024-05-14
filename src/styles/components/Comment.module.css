@@ -1,0 +1,86 @@
+.commentWrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 560px;
+  margin-top: 15px;
+}
+
+.commentInfoBox {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  gap: 5px;
+}
+
+.infoHeader {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.infoWriter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.infoWriter img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.infoWriter span {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.time,
+.comment {
+  font-weight: 400;
+}
+
+.time {
+  font-size: 14px;
+}
+
+.commentBox {
+  display: inline-flex;
+  width: 400px;
+  height: auto;
+}
+
+.space {
+  width: 45px;
+  height: auto;
+}
+
+.comment {
+  width: 355px;
+  font-size: 15px;
+  word-wrap: break-word;
+  line-height: 20px;
+}
+
+.commentBtns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 110px;
+}
+
+.commentModalBtn {
+  width: 50px;
+  height: 30px;
+  border: 1px solid #aca0eb;
+  border-radius: 8px;
+
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.commentModalBtn:hover {
+  cursor: pointer;
+}
