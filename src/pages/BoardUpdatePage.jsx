@@ -19,6 +19,7 @@ const BoardWritePage = () => {
               type={'text'}
               className={style.boardTitle}
               placeholder="제목을 입력해주세요. (최대 26글자)"
+              value="예시 제목 1"
               maxLength={26}
             />
             <hr className={style.line}></hr>
@@ -26,12 +27,9 @@ const BoardWritePage = () => {
           <div className={style.contentBox}>
             <label>{text.CONTENT} *</label>
             <hr className={style.line}></hr>
-            <textarea
-              name="content"
-              cols={30}
-              rows={10}
-              placeholder="내용을 입력해주세요."
-            ></textarea>
+            <textarea name="content" cols={30} rows={10} placeholder="내용을 입력해주세요.">
+              예시 게시글 콘텐츠
+            </textarea>
             <span className={style.helperText}>* helper text</span>
           </div>
           <div className={style.imgBox}>
@@ -46,10 +44,10 @@ const BoardWritePage = () => {
                 accept="image/jpeg,.txt"
                 style={{ display: 'none' }}
               />
-              <span className={style.fileText}>파일을 선택해주세요.</span>
+              <span className={style.fileText}>기존 파일 명</span>
             </div>
           </div>
-          <SubmitButton text={text.DONE} />
+          <SubmitButton text={text.UPDATE} />
         </form>
       </div>
     </>
