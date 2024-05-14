@@ -14,5 +14,6 @@
   "UPDATE": "수정하기",
   "UPDATE_DONE": "수정완료",
   "USER_WITHDRAW": "회원탈퇴",
-  "CHANGE": "변경"
+  "CHANGE": "변경",
+  "REGISTER_COMMENT": "댓글 등록"
 }

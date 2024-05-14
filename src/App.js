@@ -6,6 +6,7 @@ import SignupPage from './pages/SignupPage';
 import BoardListPage from './pages/BoardListPage';
 import UserUpdatePage from './pages/UserUpdatePage';
 import PasswordUpdatePage from './pages/PasswordUpdatePage';
+import BoardDetailPage from './pages/BoardDetailPage';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/boards" element={<BoardListPage />} />
           <Route path="/users/me" element={<UserUpdatePage />} />
           <Route path="/users/password" element={<PasswordUpdatePage />} />
+          <Route path="/boards/detail" element={<BoardDetailPage />} />
         </Routes>
       </BrowserRouter>
     </React.Fragment>

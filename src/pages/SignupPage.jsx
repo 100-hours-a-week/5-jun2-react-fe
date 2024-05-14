@@ -15,7 +15,7 @@ const SignupPage = () => {
       <div className={globalStyle.main}>
         <h1 className={style.subTitle}>{text.SIGNUP}</h1>
         <form className={style.signupForm}>
-          <ImageInput title={text.PROFILE_IMG} helperText="* helper text" />
+          <ImageInput title={text.PROFILE_IMG} crossLine helperText="* helper text" />
           <TextInput
             title={`${text.EMAIL} *`}
             inputInfo={inputInfo.EMAIL_INPUT_INFO}
