@@ -15,5 +15,9 @@
   "UPDATE_DONE": "수정완료",
   "USER_WITHDRAW": "회원탈퇴",
   "CHANGE": "변경",
-  "REGISTER_COMMENT": "댓글 등록"
+  "DONE": "완료",
+  "REGISTER_COMMENT": "댓글 등록",
+  "TITLE": "제목",
+  "CONTENT": "내용",
+  "IMAGE": "이미지"
 }

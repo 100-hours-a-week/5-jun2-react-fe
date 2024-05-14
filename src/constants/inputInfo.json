@@ -22,5 +22,11 @@
     "type": "text",
     "className": "nickName",
     "placeHolder": "닉네임을 입력하세요"
+  },
+  "TITLE_INPUT_INFO": {
+    "name": "title",
+    "type": "text",
+    "className": "title",
+    "placeHolder": "제목을 입력해주세요. (최대 26글자)"
   }
 }

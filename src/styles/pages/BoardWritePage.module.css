@@ -1,0 +1,104 @@
+.subTitle {
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 40px;
+}
+
+.boardWriteForm {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.line {
+  width: 100%;
+  border: 1px solid #00000029;
+}
+
+.boardWriteForm label:not(.imgInputBox > label) {
+  font-weight: 700;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.titleBox,
+.contentBox,
+.imgBox {
+  display: flex;
+  flex-direction: column;
+  width: 570px;
+}
+
+.titleBox {
+  height: 90px;
+  margin-top: 60px;
+}
+
+.boardTitle {
+  box-sizing: border-box;
+  height: 40px;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+
+  font-weight: 700;
+  font-size: 14px;
+
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.contentBox {
+  height: 300px;
+}
+
+.contentBox textarea {
+  box-sizing: border-box;
+  padding: 10px;
+  height: 100%;
+  border-radius: 4px;
+  resize: none;
+  word-spacing: -3px;
+  border: none;
+}
+
+.helperText {
+  font-weight: 400;
+  font-size: 12px;
+  color: red;
+  margin-top: 5px;
+}
+
+.imgInputBox {
+  display: flex;
+  padding: 10px 0 0 10px;
+}
+
+.imgInputBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 68px;
+  height: 28px;
+  border-radius: 4px;
+  border: 1px solid #000000;
+  background-color: #d9d9d9;
+
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.imgInputBtn:hover {
+  cursor: pointer;
+}
+
+.imgInputBox > span {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  margin-left: 10px;
+  font-size: 14px;
+}

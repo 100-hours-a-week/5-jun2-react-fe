@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   gap: 7px;
+  margin-top: 40px;
 }
 
 .titleBox > p,
