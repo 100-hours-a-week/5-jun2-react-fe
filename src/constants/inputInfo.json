@@ -2,31 +2,30 @@
   "EMAIL_INPUT_INFO": {
     "name": "email",
     "type": "text",
-    "className": "email",
-    "placeHolder": "이메일을 입력하세요"
+    "placeHolder": "이메일을 입력하세요",
+    "valueType": "email"
   },
   "PASSWORD_INPUT_INFO": {
     "name": "password",
     "type": "password",
-    "className": "password",
-    "placeHolder": "비밀번호를 입력하세요"
+    "placeHolder": "비밀번호를 입력하세요",
+    "valueType": "password"
   },
   "PASSWORD_CHECK_INPUT_INFO": {
     "name": "passwordCheck",
     "type": "password",
-    "className": "passwordCheck",
-    "placeHolder": "비밀번호를 한번 더 입력하세요"
+    "placeHolder": "비밀번호를 한번 더 입력하세요",
+    "valueType": "passwordCheck"
   },
   "NICKNAME_INPUT_INFO": {
     "name": "nickName",
     "type": "text",
-    "className": "nickName",
-    "placeHolder": "닉네임을 입력하세요"
+    "placeHolder": "닉네임을 입력하세요",
+    "valueType": "nickname"
   },
   "TITLE_INPUT_INFO": {
     "name": "title",
     "type": "text",
-    "className": "title",
     "placeHolder": "제목을 입력해주세요. (최대 26글자)"
   }
 }
