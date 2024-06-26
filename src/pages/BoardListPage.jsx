@@ -7,7 +7,8 @@ import useFetch from '../hooks/useFetch';
 import BoardCard from '../components/BoardCard';
 
 const BoardListPage = () => {
-  const boards = useFetch('http://localhost:3001/boards');
+  const {data: board, loading, error }} = useFetch('http://localhost:8080/api/boards');
+  const { data: board, loading, error } = useFetch(`http://localhost:8080/api/boards/`);
 
   return (
     <>
@@ -25,7 +26,7 @@ const BoardListPage = () => {
         <div className={style.boardCardsWrapper}>
           {boards &&
             boards.map((board) => {
-              return <BoardCard boardData={board} key={board.boardId} />;
+              return <BoardCard boardData={board} key={board.id} />;
             })}
         </div>
       </div>

@@ -22,7 +22,7 @@ function App() {
           <Route path="/boards" element={<BoardListPage />} />
           <Route path="/users/me" element={<UserUpdatePage />} />
           <Route path="/users/password" element={<PasswordUpdatePage />} />
-          <Route path="/boards/detail" element={<BoardDetailPage />} />
+          <Route path="/boards/:id" element={<BoardDetailPage />} />
           <Route path="/boards/write" element={<BoardWritePage />} />
           <Route path="/boards/update" element={<BoardUpdatePage />} />
         </Routes>
